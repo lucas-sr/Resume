@@ -1,0 +1,228 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Class
+% Version 2.0 (12/10/23)
+%
+% This class originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Omar Roldan
+% Based on a template by  Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{multicol}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\setlength{\columnsep}{0mm}
+%----------------------------------------------------------------------------------------
+\usepackage{lipsum}  
+
+
+\begin{document}
+	
+	%----------------------------------------------------------------------------------------
+	%	TITLE AND CONTACT INFORMATION
+	%----------------------------------------------------------------------------------------
+	
+	\begin{minipage}[t]{0.5\textwidth} 
+		\vspace{-\baselineskip} % Required for vertically aligning minipages
+		
+		{ \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{Lucas de Souza Rodrigues}}}} % First name
+		
+		\vspace{6pt}
+		
+		{\Large Data Scientist} % Career or current job title
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.2\textwidth} % 20% of the page width for the first row of icons
+		\vspace{-\baselineskip} % Required for vertically aligning minipages
+		
+		% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+		%\icon{Globe}{11}{\href{http://www.google.com}{portafolio.com}}\\ 
+		\icon{Phone}{11}{+55 31 99987-7405}\\
+		\icon{MapMarker}{11}{Curitiba, Parana, Brazil}\\
+		
+	\end{minipage}
+	\begin{minipage}[t]{0.27\textwidth} % 27% of the page width for the second row of icons
+		\vspace{-\baselineskip} % Required for vertically aligning minipages
+		
+		\icon{Envelope}{11}{\href{mailto:lucasdesouzarodrigues@hotmail.com}{lucasdesouzarodrigues@hotmail.com}}\\	
+		\icon{Github}{11}{\href{https://github.com/lucas-sr}{https://github.com/lucas-sr}}\\
+		\icon{LinkedinSquare}{11}{\href{https://www.linkedin.com}{h/in/lucassr7/}}\\    
+		
+	\end{minipage}
+	
+	
+	%----------------------------------------------------------------------------------------
+	%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+	%----------------------------------------------------------------------------------------
+	
+	\begin{minipage}[t]{0.46\textwidth}
+		\cvsect{Summary}
+		\vspace{-6pt}
+		
+		I am a person who has worked for more than seven years with innovation, data science and automation development projects. My focus has always been very hands-on and I have worked on a wide range of projects, from experiments with audio processing to management, implementation and evolution of a WhatsApp customer service platform, going through different modeling, forecasting, classification, chatbot and RPA projects. I'm Brazilian, single, 32 years old, born in Belo Horizonte and living in Curitiba. Graduated in Control and Automation Engineering and Master's Degree student in Artificial Intelligence.
+		
+	\end{minipage}
+	\hfill % Whitespace between
+	\begin{minipage}[t]{0.465\textwidth}
+		\cvsect{Skills}
+		\vspace{-6pt}
+		
+		\begin{minipage}[t]{0.2\textwidth}
+			\textbf{Technical:}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[t]{0.73\textwidth}
+			Python, R, SQL, PowerBI, VBA, Git, MATLab, Azure (basic), Alteryx (basic), Datarobot, Qualtrics, LABView.  
+		\end{minipage}
+		\vspace{4mm}
+		
+		\begin{minipage}[t]{0.2\textwidth}
+			\textbf{Languages}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[t]{0.73\textwidth}
+			\textbf{Portuguese}: native.\\
+			\textbf{English}: advanced.
+		\end{minipage}
+		
+	\end{minipage}
+	%----------------------------------------------------------------------------------------
+	%	EXPERIENCE
+	%----------------------------------------------------------------------------------------
+	\vspace{-10 pt}
+	\cvsect{Experience}
+	\begin{entrylist}
+		\entry
+		{Jan/2022 -- today}
+		{Machine Learning supervisor}
+		{Neodent (Straumann Group) - Curitiba/PR/Brazil}
+		{\vspace{-10pt}
+			\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+				\item Coordinator of Data Science and Special Projects team, with direct management of a data architect, a data scientist and a Java developer.
+				\item Responsible for budget management, structuring of area activities, preparation of reports, roadmap development.
+				\item Project and delivery manager.
+				\item Development of different data applications (processing, visualization and modeling).
+				\item Development of automation using RPA.
+				\item Expansion of tools developed by the area to other countries, especially the LATAM region, USA, Canada and China.
+				\item Consultancy and support in data projects for other Brazilian and international teams.
+				\item Integration of multinational teams.
+				\item Benchmarking of new technologies and experimentation through proofs of concept.
+				\item Management, support, structuring and evolution of a new service channel on WhatsApp. The launched platform increased customer satisfaction by more than 60\%, reduced service time by 3 hours and is responsible for more than 300 calls/day.
+				\item Build reports to C-level.
+				
+			\end{itemize} 
+			\texttt{Python} \slashsep \texttt{SQL} \slashsep \texttt{PowerBI} \slashsep \texttt{Azure} \slashsep \texttt{VBA} \slashsep \texttt{Take Blip} \slashsep \texttt{Qualtrics}}
+		\entry
+		{Jan/2021 -- Dec/2021}
+		{Data Scientist Specialist}
+		{Neodent (Straumann Group) - Curitiba/PR/Brazil}
+		{\vspace{-10pt}
+			\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+				\item Development of applications in Python, SQL and PowerBI to send satisfaction surveys.
+				\item Development of automation for the data collection and calculation of sales order KPIs.
+				\item Creation of demand forecast models with time series.
+				\item Creation of duplicate classification models to clean CRM prospect and lead data.
+				\item Python and PowerBI training and dissemination of a data-oriented culture.
+				\item Management of WhatsApp service platform.
+			\end{itemize} 
+			\texttt{Python} \slashsep \texttt{SQL} \slashsep \texttt{PowerBI} \slashsep \texttt{Genesys Engage} \slashsep \texttt{Qualtrics}}
+		\entry
+		{Jan/2019 -- Dec/2020}
+		{Senior Consultant in Data Sciences}
+		{EY - Sao Paulo/SP/Brazil}
+		{\vspace{-10pt}
+			\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+				\item Consulting and execution of data science projects focusing on classification, prediction and optimization. The projects were carried out in different industriesl like petrochemicals, consumer goods and energy.
+				\item Consulting on digital transformation projects and digital maturity assessment, focusing on data strategy and chatbots applications.
+				\item Preparation of tehnical requirements and calculation of effort required for projects and proofs of concept.
+			\end{itemize} 
+			\texttt{Python} \slashsep \texttt{Databricks} \slashsep \texttt{Azure} \slashsep \texttt{PowerBI}}
+		\entry
+		{Jul/2017 -- \\Jan/2019}
+		{Technology Analyst}
+		{Santander - Sao Paulo/SP/Brazil}
+		{\vspace{-10pt}
+			\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+				\item Development of proof of concepts and text classification models in R.
+				\item Project and delivery management of chatbot for internal service. The chatbot brought immediate returns, increasing the user retention rate from 50\% to around 90\% after three months of operation and feedback.
+			\end{itemize} 
+			\texttt{Python} \slashsep \texttt{R}}
+		\entry
+		{Aug/2016 -- \\Jul/2017 \\\footnotesize{scholarship holder}}
+		{Technical Support}
+		{SENAI Innovation Institute in Surface Engineering}
+		{\vspace{-10pt}
+			\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+				\item Equipment retrofit using Arduino and Python interface.
+				\item Automation of management spreadsheets and data processing of scientific equipment with VBA.
+				\item Processing and analyzing audio files in Python.
+			\end{itemize} 
+			\texttt{Python} \slashsep \texttt{VBA} \slashsep \texttt{Arduino}}
+	\end{entrylist}
+	
+	%----------------------------------------------------------------------------------------
+	%	EDUCATION
+	%----------------------------------------------------------------------------------------
+	\vspace{-10 pt}
+	\cvsect{Education}
+	\begin{entrylist}
+		\entry
+		{Aug/2021 - Feb/2024}
+		{Master's Degree in Electrical Engineering with an emphasis on Artificial Intelligence}
+		{UFPR}
+		{Dissertation theme: “Comparison of machine learning approaches for classifying sleep apnea events”. Project developed in Python using a public database of electrocardiograms.}
+		\entry
+		{Mar/2010 - Aug/2016}
+		{Bachelor's Degree in Control and Automation Engineering}
+		{UFMG}
+		{During my undergraduate studies, I participated in scientific initiation and carried out an internship in the Photonics laboratory of the Department of Physics, developing projects in LABView.}
+		\entry
+		{Jan/2014 - \\ Dec/2014}
+		{Exchange}
+		{Budapest University of Technology and Economics (BME)}
+		{Exchange period as a scholarship holder of the Sciences Without Borders program in Budapest, Hungary, studying Electrical Engineering}
+	\end{entrylist}
+	
+		%----------------------------------------------------------------------------------------
+	%	Projects
+	%----------------------------------------------------------------------------------------
+	\cvsect{Ohters}
+	\begin{entrylist}
+		\entry
+		{2023}
+		{Paper published}
+		{}
+		{%Dummy text 
+			Article accepted and presented at the XVI Brazilian Congress of Computational Intelligence. Title: “Analysis of classifiers optimizing hyperparameters and reducing dimensionality applied to sleep apnea detection”}
+		\entry
+		{2018}
+		{Green Belt}
+		{Santander Academy}
+		{%Dummy text 
+			Green Belt Course – Lean Six Sigma by Santander (course completed, certification not completed)}
+		\entry
+		{2014}
+		{Paper published}
+		{}
+		{%Dummy text 
+			Article published at the Brazilian Congress of Biomedical Engineering (CBEB). Title: "Selection of Characteristics by Genetic Algorithm in the Classification of Chagasic Heart Disease".}
+	\end{entrylist}
+	
+	
+	%----------------------------------------------------------------------------------------
+	
+\end{document}
